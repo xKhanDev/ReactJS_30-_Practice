@@ -6,6 +6,7 @@ import Toggle from './Practice Files/Toggle'
 import FetchData from './Practice Files/FetchData'
 import TimeCounter from './Practice Files/TimeCounter'
 import TodoList from './Practice Files/TodoList'
+import BackgroundChange from './Practice Files/ChangeBg'
 
 
 const App = () => {
@@ -17,9 +18,8 @@ const App = () => {
      {/* <Toggle /> */}
      {/* <FetchData /> */}
      {/* <TimeCounter /> */}
-     <TodoList />
-
-
+     {/* <TodoList /> */}
+     < BackgroundChange />
     </>
   )
 }
