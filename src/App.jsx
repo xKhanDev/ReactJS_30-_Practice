@@ -7,6 +7,8 @@ import FetchData from './Practice Files/FetchData'
 import TimeCounter from './Practice Files/TimeCounter'
 import TodoList from './Practice Files/TodoList'
 import BackgroundChange from './Practice Files/ChangeBg'
+import RoutingSetup from './Practice Files/RoutingSetup'
+import RandomQuoteGeneration from './Practice Files/RandomQuoteGeneration'
 
 
 const App = () => {
@@ -19,7 +21,10 @@ const App = () => {
      {/* <FetchData /> */}
      {/* <TimeCounter /> */}
      {/* <TodoList /> */}
-     < BackgroundChange />
+     {/* < BackgroundChange /> */}
+     {/* <RoutingSetup /> */}
+     <RandomQuoteGeneration />
+
     </>
   )
 }
