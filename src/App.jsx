@@ -9,6 +9,7 @@ import TodoList from './Practice Files/TodoList'
 import BackgroundChange from './Practice Files/ChangeBg'
 import RoutingSetup from './Practice Files/RoutingSetup'
 import RandomQuoteGeneration from './Practice Files/RandomQuoteGeneration'
+import FileUploader from './Practice Files/FileUploader'
 
 
 const App = () => {
@@ -23,7 +24,8 @@ const App = () => {
      {/* <TodoList /> */}
      {/* < BackgroundChange /> */}
      {/* <RoutingSetup /> */}
-     <RandomQuoteGeneration />
+     {/* <RandomQuoteGeneration /> */}
+     < FileUploader />
 
     </>
   )
