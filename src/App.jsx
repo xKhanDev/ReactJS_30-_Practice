@@ -10,6 +10,7 @@ import BackgroundChange from './Practice Files/ChangeBg'
 import RoutingSetup from './Practice Files/RoutingSetup'
 import RandomQuoteGeneration from './Practice Files/RandomQuoteGeneration'
 import FileUploader from './Practice Files/FileUploader'
+import AuthenForm from './Practice Files/AuthenForm'
 
 
 const App = () => {
@@ -25,8 +26,8 @@ const App = () => {
      {/* < BackgroundChange /> */}
      {/* <RoutingSetup /> */}
      {/* <RandomQuoteGeneration /> */}
-     < FileUploader />
-
+     {/* < FileUploader /> */}
+     < AuthenForm />
     </>
   )
 }
