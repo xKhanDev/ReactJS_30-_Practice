@@ -11,6 +11,8 @@ import RoutingSetup from './Practice Files/RoutingSetup'
 import RandomQuoteGeneration from './Practice Files/RandomQuoteGeneration'
 import FileUploader from './Practice Files/FileUploader'
 import AuthenForm from './Practice Files/AuthenForm'
+import WeatherApp from './Practice Files/weatherApp'
+
 
 
 const App = () => {
@@ -27,7 +29,8 @@ const App = () => {
      {/* <RoutingSetup /> */}
      {/* <RandomQuoteGeneration /> */}
      {/* < FileUploader /> */}
-     < AuthenForm />
+     {/* < AuthenForm /> */}
+     < WeatherApp />
     </>
   )
 }
