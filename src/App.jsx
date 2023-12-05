@@ -12,10 +12,11 @@ import RandomQuoteGeneration from './Practice Files/RandomQuoteGeneration'
 import FileUploader from './Practice Files/FileUploader'
 import AuthenForm from './Practice Files/AuthenForm'
 import WeatherApp from './Practice Files/weatherApp'
-
+import ModernInputSearchBar from './Practice Files/ModernInputSearchBar'
 
 
 const App = () => {
+  const items = ["item 1", "item 2", "item 3", "another item ", "another item 2"]; // this code is only for ModernInputSearchBar
   return (
     <>
      {/* <IncrDecr /> */}
@@ -30,7 +31,8 @@ const App = () => {
      {/* <RandomQuoteGeneration /> */}
      {/* < FileUploader /> */}
      {/* < AuthenForm /> */}
-     < WeatherApp />
+     {/* < WeatherApp /> */}
+     <ModernInputSearchBar items={items}/>
     </>
   )
 }
