@@ -13,6 +13,7 @@ import FileUploader from './Practice Files/FileUploader'
 import AuthenForm from './Practice Files/AuthenForm'
 import WeatherApp from './Practice Files/weatherApp'
 import ModernInputSearchBar from './Practice Files/ModernInputSearchBar'
+import PaginationComp from './Practice Files/PaginationComp'
 
 
 const App = () => {
@@ -32,7 +33,8 @@ const App = () => {
      {/* < FileUploader /> */}
      {/* < AuthenForm /> */}
      {/* < WeatherApp /> */}
-     <ModernInputSearchBar items={items}/>
+     {/* <ModernInputSearchBar items={items}/> */}
+     <PaginationComp items={items} itemsPerPage={2} />
     </>
   )
 }
