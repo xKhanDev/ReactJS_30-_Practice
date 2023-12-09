@@ -14,6 +14,8 @@ import AuthenForm from './Practice Files/AuthenForm'
 import WeatherApp from './Practice Files/weatherApp'
 import ModernInputSearchBar from './Practice Files/ModernInputSearchBar'
 import PaginationComp from './Practice Files/PaginationComp'
+import ColorPicker from './Practice Files/ColorPicker'
+import NavigationManu from './Practice Files/NavigationManu'
 
 
 const App = () => {
@@ -34,7 +36,9 @@ const App = () => {
      {/* < AuthenForm /> */}
      {/* < WeatherApp /> */}
      {/* <ModernInputSearchBar items={items}/> */}
-     <PaginationComp items={items} itemsPerPage={2} />
+     {/* <PaginationComp items={items} itemsPerPage={2} /> */}
+     {/* <ColorPicker /> */}
+     <NavigationManu />
     </>
   )
 }
