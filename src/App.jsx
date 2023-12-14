@@ -16,6 +16,7 @@ import ModernInputSearchBar from './Practice Files/ModernInputSearchBar'
 import PaginationComp from './Practice Files/PaginationComp'
 import ColorPicker from './Practice Files/ColorPicker'
 import NavigationManu from './Practice Files/NavigationManu'
+import ThemeSwitcher from './Practice Files/ThemeSwitcher'
 
 
 const App = () => {
@@ -38,7 +39,9 @@ const App = () => {
      {/* <ModernInputSearchBar items={items}/> */}
      {/* <PaginationComp items={items} itemsPerPage={2} /> */}
      {/* <ColorPicker /> */}
-     <NavigationManu />
+     {/* <NavigationManu /> */}
+     {/* <ThemeSwitcher /> */}
+
     </>
   )
 }
