@@ -16,31 +16,30 @@ import ModernInputSearchBar from './Practice Files/ModernInputSearchBar'
 import PaginationComp from './Practice Files/PaginationComp'
 import ColorPicker from './Practice Files/ColorPicker'
 import NavigationManu from './Practice Files/NavigationManu'
-import ThemeSwitcher from './Practice Files/ThemeSwitcher'
 
 
 const App = () => {
   const items = ["item 1", "item 2", "item 3", "another item ", "another item 2"]; // this code is only for ModernInputSearchBar
   return (
     <>
-     {/* <IncrDecr /> */}
-     {/* <Form /> */}
-     {/* <ListItems /> */}
-     {/* <Toggle /> */}
-     {/* <FetchData /> */}
-     {/* <TimeCounter /> */}
-     {/* <TodoList /> */}
-     {/* < BackgroundChange /> */}
-     {/* <RoutingSetup /> */}
-     {/* <RandomQuoteGeneration /> */}
-     {/* < FileUploader /> */}
-     {/* < AuthenForm /> */}
-     {/* < WeatherApp /> */}
-     {/* <ModernInputSearchBar items={items}/> */}
-     {/* <PaginationComp items={items} itemsPerPage={2} /> */}
-     {/* <ColorPicker /> */}
-     {/* <NavigationManu /> */}
-     {/* <ThemeSwitcher /> */}
+      {/* <IncrDecr /> */}
+      {/* <Form /> */}
+      {/* <ListItems /> */}
+      {/* <Toggle /> */}
+      {/* <FetchData /> */}
+      {/* <TimeCounter /> */}
+      {/* <TodoList /> */}
+      {/* < BackgroundChange /> */}
+      {/* <RoutingSetup /> */}
+      {/* <RandomQuoteGeneration /> */}
+      {/* < FileUploader /> */}
+      {/* < AuthenForm /> */}
+      {/* < WeatherApp /> */}
+      {/* <ModernInputSearchBar items={items}/> */}
+      {/* <PaginationComp items={items} itemsPerPage={2} /> */}
+      {/* <ColorPicker /> */}
+      {/* <NavigationManu /> */}
+
 
     </>
   )
